@@ -11,8 +11,8 @@ const Notes = () => {
 
   const handleSave = () => {
     if (content.trim() !== '') {
-      setNotes([...notes, content]); // Add the content to the list of notes
-      setContent(''); // Clear the textarea after saving
+      setNotes([...notes, content]); 
+      setContent(''); 
       alert('Note saved!');
     } else {
       alert('Please enter some text before saving.');
